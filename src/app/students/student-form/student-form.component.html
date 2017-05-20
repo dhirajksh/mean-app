@@ -1,0 +1,54 @@
+<div class="row">
+  <br><br><br><br>
+</div>  
+<div class="row">
+  <div class="col-xs-12">
+    <form [formGroup]="studentForm" (ngSubmit)="doSave()">
+      <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">First Name</label>
+              <input formControlName="FName" type="text" placeholder="Your first name" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Last Name</label>
+              <input formControlName="LName" type="text" placeholder="Your last name" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Class</label>
+              <input formControlName="ClassName" type="text" placeholder="Your Class Name" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Address</label>
+              <input formControlName="Address" type="text" placeholder="Your Address" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Contact Number</label>
+              <input formControlName="ContactNo" type="text" placeholder="Your Contact No" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-primary" type="submit">Save</button>
+          </div>
+        </div>
+    </form>
+  </div>
+</div>

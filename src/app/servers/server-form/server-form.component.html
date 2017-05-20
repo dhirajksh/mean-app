@@ -1,0 +1,38 @@
+<div class="row">
+  <br><br><br><br>
+</div>  
+<div class="row">
+  <div class="col-xs-12">
+    <form [formGroup]="serverForm" (ngSubmit)="doSave()">
+      <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Server Name</label>
+              <input formControlName="name" type="text" placeholder="Enter server name" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Capacity</label>
+              <input formControlName="capacity" type="text" placeholder="Enter server capacity" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Application</label>
+              <input formControlName="appname" type="text" placeholder="Specify application installed" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-primary" type="submit">Save</button>
+          </div>
+        </div>
+    </form>
+  </div>
+</div>

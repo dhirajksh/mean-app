@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-7">
+      <h1>Student</h1>
+      <button class="btn btn-primary" routerLink="/students/add">Add Student</button>
+      <button class="btn btn-primary" (click)="onGet()">Get Users</button>
+      <table class="table">
+      <thead><tr><td>Name</td><td>Address</td><td>Contact No</td><td></td><td></td></tr></thead>
+      <tr *ngFor="let student of students">
+        <td>{{ student.FName }} (Student id: {{ student.SID }})</td>
+        <td>{{ student.Address }}</td>
+        <td>{{ student.ContactNo }}</td>
+        <td>
+          <a style="cursor: pointer" (click)="onEditItem(student._id)">Edit</a>
+        </td>
+        <td>
+          <a style="cursor: pointer" (click)="onDeleteItem(student._id)">Delete</a>
+        </td>
+
+      </tr>
+      </table>
+  </div>

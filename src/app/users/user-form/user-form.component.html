@@ -1,0 +1,54 @@
+<div class="row">
+  <br><br><br><br>
+</div>  
+<div class="row">
+  <div class="col-xs-12">
+    <form [formGroup]="userForm" (ngSubmit)="doSave()">
+      <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input formControlName="name" type="text" placeholder="Your full name" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Login Id</label>
+              <input formControlName="username" type="text" placeholder="Your login name" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Email Id</label>
+              <input formControlName="email" type="email" placeholder="Your email" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Address</label>
+              <input formControlName="address" type="text" placeholder="Your Address" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="name">Contact Number</label>
+              <input formControlName="mobile" type="text" placeholder="Your Contact No" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-primary" type="submit">Save</button>
+          </div>
+        </div>
+    </form>
+  </div>
+</div>
