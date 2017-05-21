@@ -18,14 +18,6 @@ router.put('/student/:id', student.update);
 
 router.delete('/student/:id', student.delete);
 
-router.get('/class', admin.classlist);
-
-router.get('/session', admin.sessionlist);
-  
-router.get('/section', admin.sectionlist);
-
-router.get('/recipes', admin.recipelist);
-
 router.get('/user', user.list);
 
 router.get('/user/:id', user.find);
@@ -45,5 +37,31 @@ router.delete('/server/:id', server.delete);
 router.post('/server', server.create);
 
 router.put('/server', server.update);
+
+// Admin APIs
+
+router.get('/class', admin.classlist);
+
+router.get('/class/:id', admin.classfind);
+
+router.post('/class', admin.classcreate);
+
+router.put('/class/:id', admin.classupdate);
+
+router.delete('/class/:id', admin.classdelete);
+
+router.get('/session', admin.sessionlist);
+
+router.get('/session/:id', admin.sessionfind);
+
+router.post('/session', admin.sessioncreate);
+
+router.put('/session/:id', admin.sessionupdate);
+
+router.delete('/session/:id', admin.sessiondelete);
+
+
+router.get('/section', admin.sectionlist);
+
 
 module.exports = router;
