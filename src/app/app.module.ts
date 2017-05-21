@@ -21,6 +21,7 @@ import { ServerFormComponent } from './servers/server-form/server-form.component
 import { StudentService } from './students/student.service';
 import { StudentsComponent } from './students/students.component';
 import { StudentFormComponent } from './students/student-form/student-form.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { StudentFormComponent } from './students/student-form/student-form.compo
     UserFormComponent,
     ServerFormComponent,
     StudentsComponent,
-    StudentFormComponent
+    StudentFormComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
