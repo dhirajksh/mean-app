@@ -19,10 +19,10 @@ webpackEmptyContext.id = 146;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(158);
 
 
 
@@ -39,7 +39,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -60,8 +60,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(222),
-        styles: [__webpack_require__(212)]
+        template: __webpack_require__(224),
+        styles: [__webpack_require__(213)]
     }),
     __metadata("design:paramtypes", [])
 ], AppComponent);
@@ -75,13 +75,13 @@ AppComponent = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__servers_server_service__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__servers_servers_component__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_header_component__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_header_component__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routing__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__users_user_service__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__users_users_component__ = __webpack_require__(95);
@@ -90,6 +90,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__students_student_service__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__students_students_component__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__students_student_form_student_form_component__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__dropdown_dropdown_component__ = __webpack_require__(156);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -116,6 +117,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -131,7 +133,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_11__users_user_form_user_form_component__["a" /* UserFormComponent */],
             __WEBPACK_IMPORTED_MODULE_12__servers_server_form_server_form_component__["a" /* ServerFormComponent */],
             __WEBPACK_IMPORTED_MODULE_14__students_students_component__["a" /* StudentsComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__students_student_form_student_form_component__["a" /* StudentFormComponent */]
+            __WEBPACK_IMPORTED_MODULE_15__students_student_form_student_form_component__["a" /* StudentFormComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__dropdown_dropdown_component__["a" /* DropdownComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -153,7 +156,7 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__users_users_component__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__users_user_form_user_form_component__ = __webpack_require__(94);
@@ -217,7 +220,86 @@ Routing = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* unused harmony export DropdownValue */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DropdownComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DropdownValue = (function () {
+    function DropdownValue(value, label) {
+        this.value = value;
+        this.label = label;
+    }
+    return DropdownValue;
+}());
+
+var DropdownComponent = (function () {
+    function DropdownComponent() {
+    }
+    /*  valueChange: EventEmitter;
+    
+      constructor(private elementRef:ElementRef) {
+        this.valueChange = new EventEmitter();
+      }
+    
+      select(value) {
+        this.valueChange.emit(value);
+      }
+    */
+    DropdownComponent.prototype.ngOnInit = function () {
+    };
+    return DropdownComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __metadata("design:type", Array)
+], DropdownComponent.prototype, "values", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])(),
+    __metadata("design:type", Array)
+], DropdownComponent.prototype, "value", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Output */])()
+    /*  valueChange: EventEmitter;
+    
+      constructor(private elementRef:ElementRef) {
+        this.valueChange = new EventEmitter();
+      }
+    
+      select(value) {
+        this.valueChange.emit(value);
+      }
+    */
+    ,
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
+], DropdownComponent.prototype, "ngOnInit", null);
+DropdownComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-dropdown',
+        template: __webpack_require__(225),
+        styles: [__webpack_require__(214)]
+    })
+], DropdownComponent);
+
+//# sourceMappingURL=dropdown.component.js.map
+
+/***/ }),
+
+/***/ 157:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -239,8 +321,8 @@ var HeaderComponent = (function () {
 HeaderComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-header',
-        template: __webpack_require__(223),
-        styles: [__webpack_require__(213)]
+        template: __webpack_require__(226),
+        styles: [__webpack_require__(215)]
     }),
     __metadata("design:paramtypes", [])
 ], HeaderComponent);
@@ -249,7 +331,7 @@ HeaderComponent = __decorate([
 
 /***/ }),
 
-/***/ 157:
+/***/ 158:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -266,10 +348,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 212:
+/***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -284,28 +366,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 213:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(15)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 214:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -323,7 +387,7 @@ module.exports = module.exports.toString();
 /***/ 215:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -341,7 +405,7 @@ module.exports = module.exports.toString();
 /***/ 216:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -359,7 +423,7 @@ module.exports = module.exports.toString();
 /***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -377,7 +441,7 @@ module.exports = module.exports.toString();
 /***/ 218:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -395,7 +459,7 @@ module.exports = module.exports.toString();
 /***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(14)();
 // imports
 
 
@@ -410,63 +474,106 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 222:
-/***/ (function(module, exports) {
+/***/ 220:
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<app-header (featureSelected)=\"onNavigate($event)\"></app-header>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n</div>"
+exports = module.exports = __webpack_require__(14)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 223:
-/***/ (function(module, exports) {
+/***/ 221:
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">CRUD App</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\"><a routerLink=\"/users\">Users</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/servers\">Servers</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/students\">Students</a></li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li class=\"dropdown\" appDropdown>\n          <a style=\"cursor: pointer;\" class=\"dropdown-toggle\">Admin <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li routerLinkActive=\"active\"><a style=\"cursor: pointer;\" routerLink=\"/users\">Session</a></li>\n            <li routerLinkActive=\"active\"><a style=\"cursor: pointer;\" routerLink=\"/users\">Class</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>"
+exports = module.exports = __webpack_require__(14)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
 /***/ 224:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <br><br><br><br>\n</div>  \n<div class=\"row\">\n  <div class=\"col-xs-12\">\n    <form [formGroup]=\"serverForm\" (ngSubmit)=\"doSave()\">\n      <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Server Name</label>\n              <input formControlName=\"name\" type=\"text\" placeholder=\"Enter server name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Capacity</label>\n              <input formControlName=\"capacity\" type=\"text\" placeholder=\"Enter server capacity\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Application</label>\n              <input formControlName=\"appname\" type=\"text\" placeholder=\"Specify application installed\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <button class=\"btn btn-primary\" type=\"submit\">Save</button>\n          </div>\n        </div>\n    </form>\n  </div>\n</div>"
+module.exports = "<app-header (featureSelected)=\"onNavigate($event)\"></app-header>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
 /***/ 225:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-7\">\n      <h1>Servers</h1>\n      <button class=\"btn btn-primary\" (click)=\"onNewServer()\">Add Server</button>\n      <button class=\"btn btn-primary\" (click)=\"onGet()\">Get Servers</button>\n      <table class=\"table\">\n      <thead><tr><td>Name</td><td>Capacity</td><td>Application</td><td></td><td></td></tr></thead>\n      <tr *ngFor=\"let server of servers\">\n        <td>{{ server.name }} (Id: {{ server.id }})</td>\n        <td>{{ server.capacity }}</td>\n        <td>{{ server.appname }}</td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onEditServer(server.id)\">Edit</a>\n        </td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onDeleteItem(server.id)\">Delete</a>\n        </td>\n\n      </tr>\n      </table>\n  </div>\n  <div class=\"col-md-5\">\n    <router-outlet></router-outlet>\n  </div>"
+module.exports = ""
 
 /***/ }),
 
 /***/ 226:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <br><br><br><br>\n</div>  \n<div class=\"row\">\n  <div class=\"col-xs-12\">\n    <form [formGroup]=\"studentForm\" (ngSubmit)=\"doSave()\">\n      <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">First Name</label>\n              <input formControlName=\"FName\" type=\"text\" placeholder=\"Your first name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Last Name</label>\n              <input formControlName=\"LName\" type=\"text\" placeholder=\"Your last name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Class</label>\n              <input formControlName=\"ClassName\" type=\"text\" placeholder=\"Your Class Name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Address</label>\n              <input formControlName=\"Address\" type=\"text\" placeholder=\"Your Address\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Contact Number</label>\n              <input formControlName=\"ContactNo\" type=\"text\" placeholder=\"Your Contact No\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <button class=\"btn btn-primary\" type=\"submit\">Save</button>\n          </div>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">CRUD App</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\"><a routerLink=\"/users\">Users</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/servers\">Servers</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/students\">Students</a></li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li class=\"dropdown\" appDropdown>\n          <a style=\"cursor: pointer;\" class=\"dropdown-toggle\">Admin <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li routerLinkActive=\"active\"><a style=\"cursor: pointer;\" routerLink=\"/users\">Session</a></li>\n            <li routerLinkActive=\"active\"><a style=\"cursor: pointer;\" routerLink=\"/users\">Class</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>"
 
 /***/ }),
 
 /***/ 227:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-7\">\n      <h1>Student</h1>\n      <button class=\"btn btn-primary\" routerLink=\"/students/add\">Add Student</button>\n      <button class=\"btn btn-primary\" (click)=\"onGet()\">Get Users</button>\n      <table class=\"table\">\n      <thead><tr><td>Name</td><td>Address</td><td>Contact No</td><td></td><td></td></tr></thead>\n      <tr *ngFor=\"let student of students\">\n        <td>{{ student.FName }} (Student id: {{ student.SID }})</td>\n        <td>{{ student.Address }}</td>\n        <td>{{ student.ContactNo }}</td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onEditItem(student._id)\">Edit</a>\n        </td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onDeleteItem(student._id)\">Delete</a>\n        </td>\n\n      </tr>\n      </table>\n  </div>"
+module.exports = "<div class=\"row\">\n  <br><br><br><br>\n</div>  \n<div class=\"row\">\n  <div class=\"col-xs-12\">\n    <form [formGroup]=\"serverForm\" (ngSubmit)=\"doSave()\">\n      <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Server Name</label>\n              <input formControlName=\"name\" type=\"text\" placeholder=\"Enter server name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Capacity</label>\n              <input formControlName=\"capacity\" type=\"text\" placeholder=\"Enter server capacity\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Application</label>\n              <input formControlName=\"appname\" type=\"text\" placeholder=\"Specify application installed\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <button class=\"btn btn-primary\" type=\"submit\">Save</button>\n          </div>\n        </div>\n    </form>\n  </div>\n</div>"
 
 /***/ }),
 
 /***/ 228:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <br><br><br><br>\n</div>  \n<div class=\"row\">\n  <div class=\"col-xs-12\">\n    <form [formGroup]=\"userForm\" (ngSubmit)=\"doSave()\">\n      <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Name</label>\n              <input formControlName=\"name\" type=\"text\" placeholder=\"Your full name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Login Id</label>\n              <input formControlName=\"username\" type=\"text\" placeholder=\"Your login name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Email Id</label>\n              <input formControlName=\"email\" type=\"email\" placeholder=\"Your email\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Address</label>\n              <input formControlName=\"address\" type=\"text\" placeholder=\"Your Address\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Contact Number</label>\n              <input formControlName=\"mobile\" type=\"text\" placeholder=\"Your Contact No\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <button class=\"btn btn-primary\" type=\"submit\">Save</button>\n          </div>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-7\">\n      <h1>Servers</h1>\n      <button class=\"btn btn-primary\" (click)=\"onNewServer()\">Add Server</button>\n      <button class=\"btn btn-primary\" (click)=\"onGet()\">Get Servers</button>\n      <table class=\"table\">\n      <thead><tr><td>Name</td><td>Capacity</td><td>Application</td><td></td><td></td></tr></thead>\n      <tr *ngFor=\"let server of servers\">\n        <td>{{ server.name }} (Id: {{ server.id }})</td>\n        <td>{{ server.capacity }}</td>\n        <td>{{ server.appname }}</td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onEditServer(server.id)\">Edit</a>\n        </td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onDeleteItem(server.id)\">Delete</a>\n        </td>\n\n      </tr>\n      </table>\n  </div>\n  <div class=\"col-md-5\">\n    <router-outlet></router-outlet>\n  </div>"
 
 /***/ }),
 
 /***/ 229:
 /***/ (function(module, exports) {
 
+module.exports = "<div class=\"row\">\n  <br><br><br><br>\n</div>  \n<div class=\"row\">\n  <div class=\"col-xs-12\">\n    <form [formGroup]=\"studentForm\" (ngSubmit)=\"doSave()\">\n      <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">First Name</label>\n              <input formControlName=\"FName\" type=\"text\" placeholder=\"Your first name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Last Name</label>\n              <input formControlName=\"LName\" type=\"text\" placeholder=\"Your last name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Class</label>\n              <input formControlName=\"ClassName\" type=\"text\" placeholder=\"Your Class Name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Address</label>\n              <input formControlName=\"Address\" type=\"text\" placeholder=\"Your Address\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Contact Number</label>\n              <input formControlName=\"ContactNo\" type=\"text\" placeholder=\"Your Contact No\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <button class=\"btn btn-primary\" type=\"submit\">Save</button>\n          </div>\n        </div>\n    </form>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 230:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-7\">\n      <h1>Student</h1>\n      <button class=\"btn btn-primary\" routerLink=\"/students/add\">Add Student</button>\n      <button class=\"btn btn-primary\" (click)=\"onGet()\">Get Users</button>\n      <table class=\"table\">\n      <thead><tr><td>Name</td><td>Address</td><td>Contact No</td><td></td><td></td></tr></thead>\n      <tr *ngFor=\"let student of students\">\n        <td>{{ student.FName }} (Student id: {{ student.SID }})</td>\n        <td>{{ student.Address }}</td>\n        <td>{{ student.ContactNo }}</td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onEditItem(student._id)\">Edit</a>\n        </td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onDeleteItem(student._id)\">Delete</a>\n        </td>\n\n      </tr>\n      </table>\n  </div>"
+
+/***/ }),
+
+/***/ 231:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\n  <br><br><br><br>\n</div>  \n<div class=\"row\">\n  <div class=\"col-xs-12\">\n    <form [formGroup]=\"userForm\" (ngSubmit)=\"doSave()\">\n      <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Name</label>\n              <input formControlName=\"name\" type=\"text\" placeholder=\"Your full name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Login Id</label>\n              <input formControlName=\"username\" type=\"text\" placeholder=\"Your login name\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Email Id</label>\n              <input formControlName=\"email\" type=\"email\" placeholder=\"Your email\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Address</label>\n              <input formControlName=\"address\" type=\"text\" placeholder=\"Your Address\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <div class=\"form-group\">\n              <label for=\"name\">Contact Number</label>\n              <input formControlName=\"mobile\" type=\"text\" placeholder=\"Your Contact No\" class=\"form-control\">\n            </div>\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-xs-12\">\n            <button class=\"btn btn-primary\" type=\"submit\">Save</button>\n          </div>\n        </div>\n    </form>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 232:
+/***/ (function(module, exports) {
+
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-7\">\n      <h1>Users</h1>\n      <button class=\"btn btn-primary\" routerLink=\"/adduser\">Add User</button>\n      <button class=\"btn btn-primary\" (click)=\"onGet()\">Get Users</button>\n      <table class=\"table\">\n      <thead><tr><td>Name</td><td>Email Id</td><td>Contact No</td><td></td><td></td></tr></thead>\n      <tr *ngFor=\"let user of users\">\n        <td>{{ user.name }} (login id: {{ user.username }})</td>\n        <td>{{ user.email }}</td>\n        <td>{{ user.mobile }}</td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onEditItem(user._id)\">Edit</a>\n        </td>\n        <td>\n          <a style=\"cursor: pointer\" (click)=\"onDeleteItem(user._id)\">Delete</a>\n        </td>\n\n      </tr>\n      </table>\n  </div>\n  <div class=\"col-md-5\">\n    <app-user-form></app-user-form>\n  </div>"
 
 /***/ }),
 
-/***/ 496:
+/***/ 499:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(147);
@@ -478,13 +585,13 @@ module.exports = __webpack_require__(147);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -563,11 +670,11 @@ var _a;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__);
@@ -648,11 +755,11 @@ var _a;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Observable__);
@@ -699,7 +806,10 @@ var UserService = (function () {
         return this.http.delete('http://localhost:3000/api/user/' + id, { headers: headers });
     };
     UserService.prototype.getUsers = function () {
-        return this.http.get('http://localhost:3000/api/user')
+        //http://localhost:3000/api/user
+        //https://ds-demo-fe972.firebaseio.com/student.json
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
+        return this.http.get('http://localhost:3000/api/user', { headers: headers })
             .map(function (response) {
             var data = response.json();
             return data;
@@ -734,7 +844,7 @@ var _a;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__server_service__ = __webpack_require__(60);
@@ -824,8 +934,8 @@ var ServerFormComponent = (function () {
 ServerFormComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-server-form',
-        template: __webpack_require__(224),
-        styles: [__webpack_require__(214)]
+        template: __webpack_require__(227),
+        styles: [__webpack_require__(216)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__server_service__["a" /* ServerService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__server_service__["a" /* ServerService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* FormBuilder */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _d || Object])
 ], ServerFormComponent);
@@ -839,7 +949,7 @@ var _a, _b, _c, _d;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__server_service__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(27);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServersComponent; });
@@ -903,8 +1013,8 @@ var ServersComponent = (function () {
 ServersComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-servers',
-        template: __webpack_require__(225),
-        styles: [__webpack_require__(215)]
+        template: __webpack_require__(228),
+        styles: [__webpack_require__(217)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__server_service__["a" /* ServerService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__server_service__["a" /* ServerService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _c || Object])
 ], ServersComponent);
@@ -918,7 +1028,7 @@ var _a, _b, _c;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__student_service__ = __webpack_require__(61);
@@ -1004,8 +1114,8 @@ var StudentFormComponent = (function () {
 StudentFormComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-student-form',
-        template: __webpack_require__(226),
-        styles: [__webpack_require__(216)]
+        template: __webpack_require__(229),
+        styles: [__webpack_require__(218)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__student_service__["a" /* StudentService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__student_service__["a" /* StudentService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _d || Object])
 ], StudentFormComponent);
@@ -1019,7 +1129,7 @@ var _a, _b, _c, _d;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__student_service__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(27);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StudentsComponent; });
@@ -1073,8 +1183,8 @@ var StudentsComponent = (function () {
 StudentsComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-students',
-        template: __webpack_require__(227),
-        styles: [__webpack_require__(217)]
+        template: __webpack_require__(230),
+        styles: [__webpack_require__(219)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__student_service__["a" /* StudentService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__student_service__["a" /* StudentService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _c || Object])
 ], StudentsComponent);
@@ -1088,7 +1198,7 @@ var _a, _b, _c;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__user_service__ = __webpack_require__(62);
@@ -1171,8 +1281,8 @@ var UserFormComponent = (function () {
 UserFormComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-user-form',
-        template: __webpack_require__(228),
-        styles: [__webpack_require__(218)]
+        template: __webpack_require__(231),
+        styles: [__webpack_require__(220)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__user_service__["a" /* UserService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__user_service__["a" /* UserService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _d || Object])
 ], UserFormComponent);
@@ -1186,7 +1296,7 @@ var _a, _b, _c, _d;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user_service__ = __webpack_require__(62);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsersComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1237,8 +1347,8 @@ var UsersComponent = (function () {
 UsersComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-users',
-        template: __webpack_require__(229),
-        styles: [__webpack_require__(219)]
+        template: __webpack_require__(232),
+        styles: [__webpack_require__(221)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__user_service__["a" /* UserService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__user_service__["a" /* UserService */]) === "function" && _a || Object])
 ], UsersComponent);
@@ -1248,5 +1358,5 @@ var _a;
 
 /***/ })
 
-},[496]);
+},[499]);
 //# sourceMappingURL=main.bundle.js.map

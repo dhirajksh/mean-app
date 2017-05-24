@@ -41,7 +41,11 @@ export class UserService {
   }
 
   getUsers() {
-    return this.http.get('http://localhost:3000/api/user')
+    //http://localhost:3000/api/user
+    //https://ds-demo-fe972.firebaseio.com/student.json
+    const headers = new Headers({'Content-Type': 'application/json'});
+ 
+    return this.http.get('http://localhost:3000/api/user', {headers: headers})
       .map(
         (response: Response) => {
           const data = response.json();

@@ -26,7 +26,7 @@ export class DropdownComponent implements OnInit {
   value: string[];
 
   @Output()
-  valueChange: EventEmitter;
+/*  valueChange: EventEmitter;
 
   constructor(private elementRef:ElementRef) {
     this.valueChange = new EventEmitter();
@@ -35,7 +35,7 @@ export class DropdownComponent implements OnInit {
   select(value) {
     this.valueChange.emit(value);
   }
-
+*/
   ngOnInit() {
   }
 
